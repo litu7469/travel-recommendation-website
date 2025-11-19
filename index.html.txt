@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendations - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>✈️ TravelExplorer</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Introduction -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Perfect Destination</h1>
+            <p class="intro-text">Welcome to TravelExplorer, your ultimate guide to discovering breathtaking destinations around the world. Whether you're seeking pristine beaches, spiritual temples, or vibrant cities, we're here to help you plan your dream vacation. Start your journey with us today and explore the world like never before!</p>
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for beaches, temples, or countries...">
+                <button onclick="searchDestinations()" class="btn-search">Search</button>
+                <button onclick="clearResults()" class="btn-clear">Clear</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Results Section -->
+    <section class="results-section" id="resultsSection">
+        <div class="container">
+            <h2 id="resultsTitle"></h2>
+            <div id="recommendationsContainer" class="recommendations-grid"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TravelExplorer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Travel Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>✈️ TravelExplorer</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Us Content -->
+    <section class="about-section">
+        <div class="container">
+            <h1>About TravelExplorer</h1>
+            
+            <!-- Company Mission -->
+            <div class="about-content">
+                <h2>Our Mission</h2>
+                <p>At TravelExplorer, our mission is to inspire and empower travelers to discover the world's most beautiful destinations. We believe that travel enriches lives, broadens perspectives, and creates unforgettable memories. Our goal is to provide personalized recommendations that match your unique preferences and help you plan the perfect getaway.</p>
+            </div>
+
+            <!-- Our Team -->
+            <div class="about-content">
+                <h2>Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-image">👨‍💼</div>
+                        <h3>John Smith</h3>
+                        <p class="role">CEO & Founder</p>
+                        <p>With 15 years of experience in the travel industry, John leads our team with passion and expertise.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">👩‍💼</div>
+                        <h3>Sarah Johnson</h3>
+                        <p class="role">Head of Travel Planning</p>
+                        <p>Sarah specializes in creating customized travel experiences and has visited over 80 countries.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">👨‍💻</div>
+                        <h3>Michael Chen</h3>
+                        <p class="role">Technology Director</p>
+                        <p>Michael ensures our platform delivers seamless user experiences with cutting-edge technology.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Company History -->
+            <div class="about-content">
+                <h2>Our History</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>2015</h3>
+                        <p>TravelExplorer was founded with a vision to revolutionize travel planning.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>2018</h3>
+                        <p>Reached 100,000 satisfied travelers and expanded to cover destinations worldwide.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>2021</h3>
+                        <p>Launched our AI-powered recommendation system for personalized travel suggestions.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>2024</h3>
+                        <p>Celebrating over 1 million users and continuing to grow our global community.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Office Locations -->
+            <div class="about-content">
+                <h2>Our Offices</h2>
+                <div class="offices-grid">
+                    <div class="office-card">
+                        <h3>🌎 New York, USA</h3>
+                        <p>123 Broadway Avenue<br>New York, NY 10001<br>Phone: +1 (555) 123-4567</p>
+                    </div>
+                    <div class="office-card">
+                        <h3>🌍 London, UK</h3>
+                        <p>456 Oxford Street<br>London, W1D 1BS<br>Phone: +44 20 7123 4567</p>
+                    </div>
+                    <div class="office-card">
+                        <h3>🌏 Tokyo, Japan</h3>
+                        <p>789 Shibuya District<br>Tokyo, 150-0002<br>Phone: +81 3-1234-5678</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TravelExplorer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
